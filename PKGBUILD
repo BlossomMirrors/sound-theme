@@ -11,11 +11,11 @@ makedepends=()
 optdepends=('kde-plasma: For full integration with KDE Plasma'
             'gnome-shell: For full integration with GNOME'
             'gnome-tweaks: To enable theme in GNOME')
-source=("git+${url}.git")
-md5sums=('SKIP')
+source=("https://codeberg.org/BlossomOS/sound-theme/archive/refs/tags/v${pkgver}.tar.gz")
+sha256sums=('SKIP')
 
 package() {
-  cd "${srcdir}/${pkgname}"
+  cd "${srcdir}/sound-theme"
   
   # Install sound theme to /usr/share/sounds/
   install -dm 755 "${pkgdir}/usr/share/sounds/modern-minimal-ui"

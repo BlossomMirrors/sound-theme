@@ -8,7 +8,7 @@ pkgbase = blossom-sound-theme
 	optdepends = kde-plasma: For full integration with KDE Plasma
 	optdepends = gnome-shell: For full integration with GNOME
 	optdepends = gnome-tweaks: To enable theme in GNOME
-	source = git+https://codeberg.org/BlossomOS/sound-theme.git
-	md5sums = SKIP
+	source = https://codeberg.org/BlossomOS/sound-theme/archive/refs/tags/v1.0.0.tar.gz
+	sha256sums = SKIP
 
 pkgname = blossom-sound-theme
