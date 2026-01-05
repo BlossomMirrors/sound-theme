@@ -1,0 +1,14 @@
+pkgbase = blossom-sound-theme
+	pkgdesc = BlossomOS sound theme - minimalistic UI sounds adhering to the freedesktop naming standard
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://codeberg.org/BlossomOS/sound-theme
+	arch = any
+	license = CC-BY-SA-4.0
+	optdepends = kde-plasma: For full integration with KDE Plasma
+	optdepends = gnome-shell: For full integration with GNOME
+	optdepends = gnome-tweaks: To enable theme in GNOME
+	source = git+https://codeberg.org/BlossomOS/sound-theme.git
+	md5sums = SKIP
+
+pkgname = blossom-sound-theme
