@@ -1,6 +1,6 @@
 # BlossomOS Sound Theme
 
-A minimalistic UI sound theme adhering to the freedesktop naming standard for BlossomOS. Based on the [original Modern Minimal UI sounds](https://github.com/cadecomposer/modern-minimal-ui-sounds) made in [REAPER](https://www.reaper.fm/) using the [Vital VST](https://vital.audio/). This is meant to be a drop-in replacement for the default [Ocean](https://github.com/KDE/ocean-sound-theme) theme on Plasma 6.    
+A minimalistic UI sound theme adhering to the freedesktop naming standard for BlossomOS. Based on the [original Modern Minimal UI sounds](https://github.com/cadecomposer/modern-minimal-ui-sounds) made in [REAPER](https://www.reaper.fm/) using the [Vital VST](https://vital.audio/). This is meant to be a drop-in replacement for the default [blossom-sound-theme](https://github.com/KDE/blossom-sound-theme-sound-theme) theme on Plasma 6.    
 
 These sounds are designed for use with compatible Linux desktops, namely GNOME and KDE Plasma 6+. Feel free if you would like to use them on Windows and the like, however you will have to manually select the sounds in the settings as I will not be providing a .bat script for that.
 
