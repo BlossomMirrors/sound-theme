@@ -13,7 +13,7 @@ mkdir -p $SPECS_DIR $SOURCES_DIR
 
 # Create source tarball
 tar -czf $SOURCES_DIR/$PACKAGE_NAME-$VERSION.tar.gz \
-    --transform "s|^|$PACKAGE_NAME-$VERSION/|" \
+    --transform "s|^|$PACKAGE_NAME-$VERSION/|H" \
     stereo/ index.theme LICENSE README.md
 
 SPECFILE=$SPECS_DIR/$PACKAGE_NAME.spec
