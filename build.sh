@@ -3,7 +3,7 @@ set -e
 
 PACKAGE_NAME=blossom-sound-theme
 VERSION=1.0.0
-RELEASE=5
+RELEASE=6
 BUILDROOT=$(pwd)/rpmbuild
 SPECS_DIR=$BUILDROOT/SPECS
 
