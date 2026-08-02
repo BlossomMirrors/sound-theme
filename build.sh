@@ -97,4 +97,4 @@ rpmbuild -bb $SPECFILE \
 
 echo ""
 echo "Build complete! RPM package is available at:"
-echo "$BUILDROOT/RPMS/noarch/$PACKAGE_NAME-$VERSION-$RELEASE.*.noarch.rpm"
+echo "$BUILDROOT/RPMS/noarch/$PACKAGE_NAME-$VERSION-$RELEASE.noarch.rpm"
