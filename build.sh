@@ -3,7 +3,7 @@ set -e
 
 PACKAGE_NAME=blossom-sound-theme
 VERSION=1.0.0
-RELEASE=6
+RELEASE=7
 BUILDROOT=$(pwd)/rpmbuild
 SPECS_DIR=$BUILDROOT/SPECS
 
@@ -21,7 +21,7 @@ Release:        $RELEASE%{?dist}
 Summary:        BlossomOS sound theme - minimalistic UI sounds adhering to the freedesktop naming standard
 License:        CC-BY-SA-4.0
 BuildArch:      noarch
-URL:            https://codeberg.org/BlossomOS/sound-theme
+URL:            https://dev.blossomos.org/blossom/os/core/sound-theme
 
 %description
 BlossomOS sound theme - minimalistic UI sounds adhering to the freedesktop
